@@ -62,7 +62,9 @@ fieldset{
 .play{
 	width:195px;
 	height:55px;
-	background-color:#FADAC9;
+	background-color: transparent;
+	-webkit-filter: drop-shadow(3px 3px 3px #222);
+  	filter: drop-shadow(3px 3px 3px #222);
 /*	text-align: center;*/
 }
 
