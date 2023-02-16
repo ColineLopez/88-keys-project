@@ -63,11 +63,15 @@ fieldset{
 	width:195px;
 	height:55px;
 	background-color: transparent;
-	-webkit-filter: drop-shadow(3px 3px 3px #222);
-  	filter: drop-shadow(3px 3px 3px #222);
+
 /*	text-align: center;*/
 }
 
+ .play:hover{
+	transition-duration: 0.1s;
+	-webkit-filter: drop-shadow(3px 3px 3px #222);
+  	filter: drop-shadow(3px 3px 3px #222);
+}
 
 
 .essais_restants{
